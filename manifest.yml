@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  name: docker-k8s-devops-sample
+  host: docker-k8s-devops-sample
+  disk_quota: 1024M
+  services:
+  - sample.cloudant
